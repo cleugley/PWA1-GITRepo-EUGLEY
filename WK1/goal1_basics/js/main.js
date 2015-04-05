@@ -52,35 +52,49 @@
 console.log('------ variables ----------');
 
     //example 1: variables defined properly
-
+   // var name = "james", course ="PWA1", month=3;
+    //console.log ("name: ", name + " / course: ", course + "/ month: ")
 
     //example 2: variables not defined will = "undefined"
+    //var name, course, month;
+    //console.log ("name: ", name + " / course: ", course + "/ month: ")
 
 
     //example 3: a mix of variables defined and not defined
+    //var name, course = "PWA1", month;
+    //console.log ("name: ", name + " / course: ", course + "/ month: ")
 
-
-    //example 4: declaring multiple variables at once w/ same value
-
+//example 4: declaring multiple variables at once w/ same value
+    //var a = b = c = d = 10;
+    //console.log("a: ", a + " / b: ", b + " / c:", c + " / d: ", d);
 
 
 // string (definition, concatenation, escape character)
 console.log('------ strings ----------');
 
-    //basic string
+    var name = "James Bond";
+    console.log(name);
 
+    //basic string
+    var testString = "He's in PWA1";
+    console.log("Example 1: ", testString);
 
     //string w/ escape characters " \ "
-
+    var testString = "I need some \"quotes \" to be here.";
+    console.log("Example 2: ", testString);
 
     //string w/ escape characters and mixed single/double quotes
-
+    var testString = 'He\'s in PWA1';
+    console.log("Example 3: ", testString);
 
     //this example shows that all the "phase" vars above were overwritten
+    var testString = 'he\'s in ' + '"PWA1"';
+    console.log("Example 4: ", testString);
 
-
-
-// numbers (definition, concatenation +, math, numbers & strings)
+    // numbers (definition, concatenation +, math, numbers & strings)
+    var num = 3;
+    var testString = 'he\'s in PWA1 ' + num;
+    console.log("Example 5: ", testString);
 console.log('------ numbers ----------');
 
     // arithmetic operators:  +, -, /, *, % (modulo)
