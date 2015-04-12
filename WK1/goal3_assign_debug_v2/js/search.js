@@ -1,9 +1,14 @@
 //Name: Crystal Eugley
 //4/5/2015
 //debugging week 1
+/**
+ * Name: Crystal Eugley
+ * Date: 4/12/2015
+ * Assignment DeBUG
+ * */
 
 // Create privatized scope using a self-executing function
-
+//SEARCH INPUT. SHOULD YIELD SOMETYPE OF RESULTS.
 (function(){
 	//Displays search results
 	// Variable initialization (DO NOT FIX ANY OF THE BELOW VAR's)
