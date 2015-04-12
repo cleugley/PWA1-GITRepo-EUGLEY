@@ -1,3 +1,29 @@
+/** Name: Crystal Eugley
+Date: 4/12/2015
+Assignment: Duel #1 ANALYZE
+
+PSEUDOCODE FOR THE PROGRAM
+
+ Two players needed to be added
+ Both players will start off with 100 in heath points.
+
+ fight begins (fight function)
+    alert - player one & two health status.
+
+ after each fight round check for a winner.
+
+    if player health is above zero continue fight
+ else
+    alert with winner results
+
+ After 10 round stop fight sequence.
+ If both still have health above zero display tied
+ else
+ display player one or two as winner
+ else if
+ nobody has health left then display no winner.
+ */
+
 /**
  * Duel Fight Game - FINISHED
  * Date: 4/09/13
