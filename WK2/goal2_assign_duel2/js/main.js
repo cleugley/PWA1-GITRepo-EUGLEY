@@ -1,6 +1,6 @@
 /** Name: Crystal Eugley
-Date: 4/12/2015
-Assignment: Duel #1 ANALYZE
+Date: 4/17/2015
+Assignment: Duel #2 DEVELOP
 
 
 /**
