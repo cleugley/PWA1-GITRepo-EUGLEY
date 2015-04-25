@@ -407,7 +407,9 @@ console.log('------------ querySelectorAll -------------------');
     */
     console.log('------------ TRAVERSAL -------------------');
 
-
+	var apple = document.querySelectorAll('#nav li a')[2];
+	console.log(apple);
+	console.log((apple.parentNode.parentNode.parentNode).childNodes);
 
 
 /*
