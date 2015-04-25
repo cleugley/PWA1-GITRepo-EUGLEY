@@ -18,8 +18,8 @@ Assignment: Duel #2 DEVELOP
 
     // The following is the variables that will be used in the fighting game. 
     //player name
-    var fighterOne = ["Spiderman", 20, 100];  // Fighter One is set up as and array 0 = Fighters Name 1=Fighters Damage 2=Fighters health
-    var fighterTwo = ["Batman", 20, 100];     // Fighter Two is set up as and array 0 = Fighters Name 1=Fighters Damage 2=Fighters health
+    var fighterOne = {name: Spiderman, damage: 20, health: 100};  // Fighter One is set up as and array of objects
+    var fighterTwo = {name: Superman, damage: 20, health: 100};     // Fighter Two is set up as and array of objects
 
     //initiate round
     var round=0; //This variable identifies the round
