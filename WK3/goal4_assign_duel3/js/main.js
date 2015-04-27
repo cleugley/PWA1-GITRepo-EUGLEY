@@ -25,6 +25,7 @@ Assignment: Duel #2 DEVELOP
     var round=0; //This variable identifies the round
 
     function fight(){
+        #bluebutton (fighterOne[0])+":"+fighterOne[2]+" *START*  "+fighterTwo[0]+":"+fighterTwo[2]
         alert(fighterOne[0]+":"+fighterOne[2]+"  *START*  "+fighterTwo[0]+":"+fighterTwo[2]); //This alert states both players names as identified in the above array and the starting health points which is 100 (index 2 on the array)
         for (var i = 0; i < 10; i++)
         {
@@ -73,4 +74,4 @@ Assignment: Duel #2 DEVELOP
     /*******  The program gets started below *******/
     fight();
 
-})();
+});
